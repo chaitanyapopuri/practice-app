@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Application</title>
+    <h1 align="center">Maitre ID</h1>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <script src="bill.js"></script>
+</head>
+<center>
+<body>
+    <form class="Bill">
+     <br>
+     Total: <input id="Total" type="text" name="Total">
+     <br>
+     <br>
+     Tip: $<span id="Tip">0.0</span>&emsp;&emsp;&emsp;&emsp;&nbsp;Rate: <input id="Rate" type="text" name="Rate" size="2">
+     <br>
+     Tax: $<span id="tax">0.0</span> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+     <br>
+     Full Total: $<span id="grandTotal">0.0</span>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+     <br>
+     <br>
+     <input type="button" value="Result" onclick="restaurantBill()"/>
+     <!--<button type="button" id="Totalize">Totalize</button>-->
+    </form>
+    
+</body>
+</center>
+</html>
